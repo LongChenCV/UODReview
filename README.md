@@ -181,7 +181,7 @@ We appreciate all contributions in the field of underwater object detection to i
 If you use this toolbox or benchmark in your research, please cite this project.
 
 ```
-@article{mmdetection,
+@article{UODReview,
   title   = {Underwater Object Detection in the Era of Artificial Intelligence: Current, Challenges and Future},
   author  = {Long Chen, Yuzhi Huang, Junyu Dong, Qi xu, Sam Kwong, Huimin Lu, Chongyi Li},
   journal= {},
