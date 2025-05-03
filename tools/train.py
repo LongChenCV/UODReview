@@ -1,4 +1,16 @@
 # Copyright (c) OpenMMLab. All rights reserved.
+
+# # The detailed training configurations and hyperparameters for each framework
+# FoveaBox: max_epochs = 200, MultiStepLR milestones = [16, 22], learning_rate = 0.001, momentum = 0.9, weight_decay = 0.0001
+# GuideAnchor, max_epochs = 200, MultiStepLR milestones = [40, 80], learning_rate = 0.001, momentum = 0.9, weight_decay = 0.0001
+# CascadeRCNN, max_epochs = 200, MultiStepLR milestones = [40, 80], learning_rate = 0.001, momentum = 0.9, weight_decay = 0.0001
+# RetinaNet, max_epochs = 200, MultiStepLR milestones = [40, 80], learning_rate = 0.001, momentum = 0.9, weight_decay = 0.0001
+# RepPoints, max_epochs = 200, MultiStepLR milestones = [30, 60], learning_rate = 0.001, momentum = 0.9, weight_decay = 0.0001
+# DetectoRS, max_epochs = 200, MultiStepLR milestones = [40, 80], learning_rate = 0.0005, momentum = 0.9, weight_decay = 0.0001
+# ATSS, max_epochs = 200, MultiStepLR milestones = [40, 80], learning_rate = 0.0005, momentum = 0.9, weight_decay = 0.0001
+# GridRCNN, max_epochs = 200, MultiStepLR milestones = [40, 80], learning_rate = 0.0005, momentum = 0.9, weight_decay = 0.0001
+
+
 import os
 os.environ["CUDA_VISIBLE_DEVICES"] = "1"
 import argparse
