@@ -1,6 +1,7 @@
 # Copyright (c) OpenMMLab. All rights reserved.
 
 # # The detailed training configurations and hyperparameters for each framework
+# # All the experiments are conducted on a server with an Intel(R) Xeon(R) Silver 4114 CPU @ 2.20GHz and a single Tesla V100 GPU with a 32GB memory.
 # FoveaBox: max_epochs = 200, MultiStepLR milestones = [16, 22], learning_rate = 0.001, momentum = 0.9, weight_decay = 0.0001
 # GuideAnchor, max_epochs = 200, MultiStepLR milestones = [40, 80], learning_rate = 0.001, momentum = 0.9, weight_decay = 0.0001
 # CascadeRCNN, max_epochs = 200, MultiStepLR milestones = [40, 80], learning_rate = 0.001, momentum = 0.9, weight_decay = 0.0001
